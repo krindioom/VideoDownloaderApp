@@ -1,0 +1,6 @@
+@VideoDownloaderApp_HostAddress = http://localhost:5131
+
+GET {{VideoDownloaderApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
