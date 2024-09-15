@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoDownloaderApp", "VideoDownloaderApp\VideoDownloaderApp.csproj", "{1A35A706-6DBE-49C0-84B1-E6BAAE485213}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoDownloaderApp.DAL", "VideoDownloaderApp.DAL\VideoDownloaderApp.DAL.csproj", "{CEBF4D03-8B4B-44CA-BE5A-9644AC1309B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{211F56A5-5A5B-4C99-8EA8-25EF75AD82F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{1A35A706-6DBE-49C0-84B1-E6BAAE485213}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A35A706-6DBE-49C0-84B1-E6BAAE485213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A35A706-6DBE-49C0-84B1-E6BAAE485213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBF4D03-8B4B-44CA-BE5A-9644AC1309B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBF4D03-8B4B-44CA-BE5A-9644AC1309B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBF4D03-8B4B-44CA-BE5A-9644AC1309B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBF4D03-8B4B-44CA-BE5A-9644AC1309B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEBF4D03-8B4B-44CA-BE5A-9644AC1309B7} = {211F56A5-5A5B-4C99-8EA8-25EF75AD82F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {334B7328-87DF-470D-B355-3CDCC359CDDB}
